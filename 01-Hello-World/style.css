@@ -1,0 +1,21 @@
+body{
+    padding: 4rem;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1 > span{
+    color: red;
+}
+
+button{
+    background-color: teal;
+    color: whitesmoke;
+    padding: 0.5rem 1rem;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:hover{
+    background-color: darkslategray;
+}
