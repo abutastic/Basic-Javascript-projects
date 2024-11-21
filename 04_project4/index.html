@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the number</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        font-weight: 600; 
+      }
+
+      .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        gap: 10px;
+        background-color: thistle;
+        width: 500px;
+        max-height: 400px;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+      }
+
+      form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+      }
+
+      input{
+        padding: 5px 20px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Number Guessing Game</h1>
+      <p>Try to guess a random number between 1 and 100.</p>
+      <p>You have 10 attempts to guess the right number.</p>
+      <form>
+        <label for="guessField" id="guess">Guess a number</label>
+        <input type="text" id="guessField" class="guessField" />
+        <input
+          type="submit"
+          value="Submit Guess"
+          id="subt"
+          class="guessSubmit"
+        />
+      </form>
+
+      <div class="resultParas">
+        <p>Previous Guess: <span class="guesses"></span></p>
+        <p>Guesses Remaining: <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
