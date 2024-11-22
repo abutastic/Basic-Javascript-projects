@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container {
+  max-width: 350px;
+  background-color: cornflowerblue;
+  padding: 30px 50px;
+  border-radius: 10px;
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+#start {
+  background-color: rgb(38, 196, 38);
+  transition: 0.3s ease-in-out;
+}
+#start:hover {
+  background-color: rgb(9, 131, 9);
+}
+
+#stop {
+  background-color: rgb(212, 52, 52);
+  transition: 0.3s ease-in-out;
+}
+#stop:hover {
+    background-color: rgb(164, 18, 18);
+  }
+  
