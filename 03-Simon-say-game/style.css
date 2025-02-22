@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.purple{
+    background-color: purple;
+}
+
+
+.flash{
+    background-color: #fff;
+}
+
+.userflash{
+    background-color: greenyellow;
+}
+
+.gameFlash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
